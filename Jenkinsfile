@@ -19,10 +19,6 @@ labels:
 spec:
   # Use service account that can deploy to all namespaces
   serviceAccountName: jenkins
-  volumes:
-  - name: container-builder-key
-    secret:
-      secretName: container-builder-key
   containers:
   - name: jnlp
     env:
