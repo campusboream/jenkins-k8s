@@ -23,7 +23,7 @@ spec:
   - name: jnlp
     env:
     - name: JENKINS_URL
-      value: http://jenkins
+      value: http://jenkins:8080
   - name: node
     image: node:10.7.0
     command:
