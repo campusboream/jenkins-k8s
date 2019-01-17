@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: kube-workshop
-        image: rrequero/kube-workshop:1.0.5
+        image: 582807169123.dkr.ecr.us-west-2.amazonaws.com/kube-workshop
         imagePullPolicy: Always
         resources:
           requests:
