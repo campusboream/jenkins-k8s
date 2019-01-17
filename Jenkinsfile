@@ -57,7 +57,7 @@ spec:
               container('kubectl') {
               
                 
-                sh("kubectl get pods")
+                sh("kubectl apply -f deployment.yaml")
                 
               }
             }
