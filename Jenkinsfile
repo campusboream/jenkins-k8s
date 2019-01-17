@@ -1,10 +1,10 @@
 #!groovy
 
-def jenkinsStage = "${JENKINS_STAGE}"
+
 def branch = "${env.BRANCH_NAME}"
 
 println "Running Jenkins Pipeline"
-println "SCENARIO -> Stage: ${jenkinsStage} // Branch: ${branch}"
+println "SCENARIO -> Stage: // Branch: ${branch}"
 
 pipeline {
   agent {
